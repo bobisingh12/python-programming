@@ -1,0 +1,9 @@
+a=int(input('enter the number '))
+i=2
+while i<a:
+	     if a%2==0:
+	     	   print("Not prime number")
+	     	   break
+	     i+=1
+else:
+	   print(" number is prime")
